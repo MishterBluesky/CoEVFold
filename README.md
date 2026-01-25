@@ -24,5 +24,3 @@ Please cite the following paper when using this work:
 
 
 
-<img width="451" height="691" alt="image" src="https://github.com/user-attachments/assets/6a764fdb-1123-42b2-99f2-ebe5a96677ef" />
-
