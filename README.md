@@ -5,7 +5,7 @@ This is the homepage for CoEVFold co-evolutionary tools. The following links are
 To plot co-evolution of heteromers of up to two different genes but with unlimited chains, and for more customisable co-evolution input use CoEVfold advanced (To plot co-evolution of heteromers https://colab.research.google.com/drive/17Ra7OJADodGlBuBtJRhRcPX6ksnsx9Dq?usp=sharing
 
 
-To find likely interfaces for homomeric multimerisation use: Homomeric Quaternary interaction finder https://colab.research.google.com/drive/1ujOg4abyLVxb64koOhxZ5qP5uFr-E65l?usp=sharing
+To find likely interfaces for homomeric multimerisation use: Homomeric Quaternary interaction finder / CoEVRank https://colab.research.google.com/drive/1ujOg4abyLVxb64koOhxZ5qP5uFr-E65l?usp=sharing
 
 
 To plot co-evolution of gene networks use CoEVmapper https://colab.research.google.com/drive/1YJtx1hKymh04BfpDB4D_Wa5108o962kr?usp=sharing
