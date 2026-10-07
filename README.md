@@ -88,7 +88,7 @@ Please also cite the methods you use: GREMLIN (Balakrishnan et al. 2011; Kamiset
 
 ## Credits and licences
 
-The GREMLIN code used here is adapted from GREMLIN_TF by Sergey Ovchinnikov and Peter Koo (Beerware licence, Revision 42); the original MATLAB GREMLIN was written by Hetu Kamisetty (Baker lab). The alignment set-up uses ColabFold/ColabDesign and MMseqs2. CCMpred and plmc are distributed under their own licences. The notebooks were designed by Chris L. B. Graham (Rodrigues lab, University of Warwick); contact chris.l.b.graham@warwick.ac.uk.
+The GREMLIN code used here is adapted from GREMLIN_TF by Sergey Ovchinnikov and Peter Koo (Beerware licence, Revision 42); the original MATLAB GREMLIN was written by Hetu Kamisetty (Baker lab). The alignment set-up uses ColabFold/ColabDesign and MMseqs2. CCMpred and plmc are distributed under their own licences. The notebooks were designed by Chris L. B. Graham (Rodrigues lab, University of Warwick); contact christopher.graham@pasteur.fr
 
 *Update: Conda has been replaced by Mamba in these notebooks, which reduces crashes in recent Colab versions.*
 
