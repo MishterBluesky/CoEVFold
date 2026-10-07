@@ -11,13 +11,13 @@ Browser-based  notebooks to calculate protein coevolution and see it on contact 
 |---|---|---|
 | See the coevolution (contact) map of a single protein | `Simple_GREMLIN.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Simple_GREMLIN.ipynb) |
 | Map coevolution between different proteins onto a complex structure (heteromers) | **CoEVFold** – `Co_EVFold_Heteromer.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Co_EVFold_Heteromer.ipynb) |
-| …the same, but with CCMpred instead of GREMLIN | `Co_EVFold_Heteromer_CCMpred.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Co_EVFold_Heteromer_CCMpred.ipynb) |
-| …the same, but with plmc (the EVcouplings engine) | `Co_EVFold_Heteromer_plmc.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Co_EVFold_Heteromer_plmc.ipynb) |
-| …the same, using a coevolution matrix I already have (e.g. PyCoM) | `CUSTOM_HEATMAP_CoEVFold.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold.ipynb) |
+|  CCMpred version | `Co_EVFold_Heteromer_CCMpred.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Co_EVFold_Heteromer_CCMpred.ipynb) |
+|  plmc version (the EVcouplings engine) | `Co_EVFold_Heteromer_plmc.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Co_EVFold_Heteromer_plmc.ipynb) |
+  | Heteromers using preexisting matrix (e.g. PyCoM) | `CUSTOM_HEATMAP_CoEVFold.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold.ipynb) |
 | Find where copies of the same protein assemble (homo-oligomers) | **CoEVFold:4D** (CoEVRank) – `CoEVRank.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEVRank.ipynb) |
-| …the same, using a coevolution matrix I already have | `CUSTOM_HEATMAP_CoEVFold_4D.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold_4D.ipynb) |
+| Heteromers using preexisting matrix | `CUSTOM_HEATMAP_CoEVFold_4D.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold_4D.ipynb) |
 | Rank which proteins in a set are most likely to interact, as a network | **CoEVMapper** – `Bootstrapped_CoEV_Mapper.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Bootstrapped_CoEV_Mapper.ipynb) |
-| …and compare the network with STRING | `CoEV_Mapper_with_STRING.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEV_Mapper_with_STRING.ipynb) |
+| Benchmark with STRING, Chris's new default | `CoEV_Mapper_with_STRING.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEV_Mapper_with_STRING.ipynb) |
 
 ## The tools
 
