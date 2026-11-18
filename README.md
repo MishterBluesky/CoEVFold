@@ -15,9 +15,9 @@ Browser-based  notebooks to calculate protein coevolution and see it on contact 
 |  plmc version (the EVcouplings engine) | `Co_EVFold_Heteromer_plmc.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Co_EVFold_Heteromer_plmc.ipynb) |
   | Heteromers using preexisting matrix (e.g. PyCoM) | `CUSTOM_HEATMAP_CoEVFold.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold.ipynb) |
 | Find where copies of the same protein assemble (homo-oligomers) | **CoEVFold:4D** (CoEVRank) – `CoEVRank.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEVRank.ipynb) |
-| Heteromers using preexisting matrix | `CUSTOM_HEATMAP_CoEVFold_4D.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold_4D.ipynb) |
-| Rank which proteins in a set are most likely to interact, as a network, compared with STRING | **CoEVMapper** – `CoEV_Mapper_with_STRING.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEV_Mapper_with_STRING.ipynb) |
-| CoEVMapper without the STRING comparison | `Bootstrapped_CoEV_Mapper.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Bootstrapped_CoEV_Mapper.ipynb) |
+| Model Heteromers using preexisting matrix | `CUSTOM_HEATMAP_CoEVFold_4D.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold_4D.ipynb) |
+| Rank which proteins in a set are most likely to interact, as a network and have controls | **CoEVMapper** – `CoEV_Mapper_with_STRING.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEV_Mapper_with_STRING.ipynb) |
+| Use the same CoEVMapper tool without the STRING comparison | `Bootstrapped_CoEV_Mapper.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Bootstrapped_CoEV_Mapper.ipynb) |
 
 ## The tools
 
