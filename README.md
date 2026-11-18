@@ -16,8 +16,8 @@ Browser-based  notebooks to calculate protein coevolution and see it on contact 
   | Heteromers using preexisting matrix (e.g. PyCoM) | `CUSTOM_HEATMAP_CoEVFold.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold.ipynb) |
 | Find where copies of the same protein assemble (homo-oligomers) | **CoEVFold:4D** (CoEVRank) – `CoEVRank.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEVRank.ipynb) |
 | Heteromers using preexisting matrix | `CUSTOM_HEATMAP_CoEVFold_4D.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CUSTOM_HEATMAP_CoEVFold_4D.ipynb) |
-| Rank which proteins in a set are most likely to interact, as a network | **CoEVMapper** – `Bootstrapped_CoEV_Mapper.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Bootstrapped_CoEV_Mapper.ipynb) |
-| Benchmark with STRING, Chris's new default | `CoEV_Mapper_with_STRING.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEV_Mapper_with_STRING.ipynb) |
+| Rank which proteins in a set are most likely to interact, as a network, compared with STRING | **CoEVMapper** – `CoEV_Mapper_with_STRING.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/CoEV_Mapper_with_STRING.ipynb) |
+| CoEVMapper without the STRING comparison | `Bootstrapped_CoEV_Mapper.ipynb` | [Colab](https://colab.research.google.com/github/MishterBluesky/CoEVFold/blob/main/Bootstrapped_CoEV_Mapper.ipynb) |
 
 ## The tools
 
@@ -25,7 +25,7 @@ Browser-based  notebooks to calculate protein coevolution and see it on contact 
 
 **CoEVFold:4D (homo-oligomers, also called CoEVRank).** Coevolution between copies of the same protein cannot be separated from coevolution within one copy by sequence alone. CoEVFold:4D therefore compares the coevolution map with the contact map of a monomer (or lower-order oligomer) and finds coevolution the monomer does not explain. In the structure-guided mode, you also upload a model of the multimer and the notebook shows which of the unexplained pairs it explains; in the unguided mode, the unexplained pairs and their clusters point to where an interface may form. The top-L/5 cell reports, as a curve against the Z-score threshold, how many top-ranked pairs are monomer contacts and how many of the remaining pairs are contacts between protomers.
 
-**CoEVMapper (networks).** Paste the sequences of a set of proteins separated by `:`. CoEVMapper reduces the joint alignment by bootstrapped column sampling so that large sets fit in memory, and ranks every protein pair by its coevolution. Outputs are a ranked table, heatmaps and an interaction network. The STRING version also retrieves STRING v12 scores for all pairs and compares the two by rank correlation and ROC analysis.
+**CoEVMapper (networks).** Paste the sequences of a set of proteins separated by `:`. CoEVMapper reduces the joint alignment by bootstrapped column sampling so that large sets fit in memory, and ranks every protein pair by its coevolution. Outputs are a ranked table, heatmaps and an interaction network. By default it also retrieves STRING v12 scores for all pairs and compares the two by rank correlation and ROC analysis (`Bootstrapped_CoEV_Mapper.ipynb` is the same analysis without STRING).
 
 ## Choosing the coupling method
 
