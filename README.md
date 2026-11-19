@@ -40,12 +40,18 @@ The coupling step is interchangeable, and everything downstream (APC correction,
 
   A PyCoM matrix can be saved in Python with `numpy.save("matrix.npy", matrix)`. Tick or untick *Apply APC* depending on whether your matrix is already APC-corrected. For complexes, the matrix must cover the chains joined in the order printed by the notebook.
 
+
+https://github.com/user-attachments/assets/cb38f3fb-371b-46a6-ab37-f9a12d574afe
+
+
+
+
 ## Recommended settings
 
 | Tool | Z-score cut-off | Distance shown in PyMOL | Notes |
 |---|---|---|---|
-| CoEVFold (heteromers) | 2.5–3 for inter-protein pairs | up to 20 Å (Cα–Cα) | Up to ~1,000 residues in a standard Colab session, ~1,500 on an A100 GPU |
-| CoEVFold:4D | 1.5 (CoEVRank tables use ≥ 1) | up to 20 Å | Monomer and multimer files must match the input sequence |
+| CoEVFold (heteromers) | 2.5–3 for inter-protein pairs | up to 15 Å (Cα–Cα) | Up to ~1,000 residues in a standard Colab session, ~1,500 on an A100 GPU |
+| CoEVFold:4D | 1.5 (CoEVRank tables use ≥ 1) | up to 15 Å | Monomer and multimer files must match the input sequence |
 | CoEVMapper | relative to each protein's own (self) coevolution | – | Include proteins known not to interact as controls |
 
 For the alignment we recommend MMseqs2 with at least 50% coverage. Coevolution needs depth: the effective number of sequences divided by the length (Neff/L) should ideally be 1 or more, and the notebooks warn when it is lower.
