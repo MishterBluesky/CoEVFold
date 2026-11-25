@@ -88,7 +88,7 @@ All notebooks run in a free Google Colab session (tested on an NVIDIA T4 GPU wit
 
 If you use the CoEVFold suite, please cite:
 
-> Graham CLB, Cremona L, Robin L, Rodrigues CDA. CoEVFold suite: user-friendly pipelines to visually represent protein coevolution. 2026.
+> Graham CLB, Cremona L, Robin L, Rodrigues CDA. CoEVFold suite: user-friendly pipelines to visually represent protein coevolution. 2026. PLOS Computational Biology https://doi.org/10.1371/journal.pcbi.1014968
 
 Please also cite the methods you use: GREMLIN (Balakrishnan et al. 2011; Kamisetty et al. 2013), MMseqs2 (Steinegger & Söding 2017), and, where used, CCMpred (Seemayer et al. 2014), plmc (Hopf et al. 2017), PyCoM (Glass et al. 2024) and STRING (Szklarczyk et al. 2023).
 
