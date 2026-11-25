@@ -27,6 +27,8 @@ Browser-based  notebooks to calculate protein coevolution and see it on contact 
 
 **CoEVMapper (networks).** Paste the sequences of a set of proteins separated by `:`. CoEVMapper reduces the joint alignment by bootstrapped column sampling so that large sets fit in memory, and ranks every protein pair by its coevolution. Outputs are a ranked table, heatmaps and an interaction network. By default it also retrieves STRING v12 scores for all pairs and compares the two by rank correlation and ROC analysis (`Bootstrapped_CoEV_Mapper.ipynb` is the same analysis without STRING).
 
+The suite contains several packages inspired by and taken from ColabFold and @sokrypton, including its use of MMSEQS2
+
 ## Choosing the coupling method
 
 The coupling step is interchangeable, and everything downstream (APC correction, Z-scoring, contact masking, 3D mapping and networks) is applied in the same way whichever you choose.
